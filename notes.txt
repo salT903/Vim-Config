@@ -1,0 +1,12 @@
+runtime! archlinux.vim #ensures that vim cooperates with package extensions
+
+#these will ensure that the save times and data correspond with computer timecode
+set enc=utf-8
+set fenc=utf-8
+set termencoding =utf-8
+
+set nocompatible #disables vi and instead uses vim
+
+set commends=s1:/*, mb:\ *,elx:\ */ #AUTOCOMPLETS MULTILINE COMMENTS
+
+set number #enables line numbers instead of stupid tildes
